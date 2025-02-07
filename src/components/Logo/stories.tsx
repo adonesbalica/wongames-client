@@ -8,6 +8,7 @@ export default {
 
 export const Default: StoryObj<LogoProps> = {
   args: {
-    color: 'white'
+    color: 'white',
+    size: 'normal'
   }
 }

@@ -9,6 +9,7 @@ export default {
 export const Default: StoryObj<LogoProps> = {
   args: {
     color: 'white',
-    size: 'normal'
+    size: 'normal',
+    $hideOnMobile: false
   }
 }

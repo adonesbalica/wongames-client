@@ -1,5 +1,5 @@
-import { Meta, StoryObj } from '@storybook/react'
-import Heading from '.'
+import { Meta, StoryObj } from '@storybook/react';
+import Heading from '.';
 
 export default {
   title: 'Heading',
@@ -7,17 +7,19 @@ export default {
   args: {
     color: 'white',
     lineLeft: false,
-    lineBottom: false
+    lineBottom: false,
+    size: 'medium',
+    lineColor: 'primary'
   },
   argTypes: {
     children: {
       type: 'string'
     }
   }
-} as Meta
+} as Meta;
 
-export const Default: StoryObj = {}
+export const Default: StoryObj = {};
 
 Default.args = {
   children: 'Most Populars'
-}
+};

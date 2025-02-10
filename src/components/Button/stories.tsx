@@ -5,9 +5,6 @@ import Button from '.';
 export default {
   title: 'Button',
   component: Button,
-  args: {
-    size: 'small'
-  },
   argTypes: {
     children: {
       type: 'string'
@@ -18,5 +15,7 @@ export default {
 export const Default: StoryObj = {};
 
 Default.args = {
-  children: 'Buy now'
+  children: 'Buy now',
+  size: 'medium',
+  fullWidth: false
 };

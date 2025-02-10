@@ -9,6 +9,10 @@ export default {
 
 export const Default: StoryObj = {};
 
+Default.args = {
+  username: ''
+};
+
 Default.parameters = {
   layout: 'fullscreen',
   backgrounds: {

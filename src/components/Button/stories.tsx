@@ -1,6 +1,5 @@
 import { Meta, StoryFn } from '@storybook/react';
 import { AddShoppingCart } from '@styled-icons/material/AddShoppingCart';
-
 import Button from '.';
 
 export default {
@@ -12,9 +11,6 @@ export default {
     },
     icon: {
       type: 'function'
-    },
-    fullWidth: {
-      type: 'boolean'
     }
   }
 } as Meta;
@@ -22,8 +18,7 @@ export default {
 export const Default: StoryFn = (args) => <Button {...args} />;
 
 Default.args = {
-  children: 'Buy Now',
-  fullWidth: false
+  children: 'Buy Now'
 };
 
 export const WithIcon: StoryFn = (args) => <Button {...args} />;
@@ -31,7 +26,6 @@ export const WithIcon: StoryFn = (args) => <Button {...args} />;
 WithIcon.args = {
   size: 'small',
   children: 'Buy Now',
-  fullWidth: false,
   icon: <AddShoppingCart />
 };
 

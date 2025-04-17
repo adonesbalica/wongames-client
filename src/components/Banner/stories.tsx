@@ -16,4 +16,20 @@ export default {
   }
 } as Meta<typeof Banner>;
 
-export const Default: StoryFn<BannerProps> = (args) => <Banner {...args} />;
+export const Default: StoryFn<BannerProps> = (args) => (
+  <div style={{ maxWidth: '104rem', margin: '0 auto' }}>
+    <Banner {...args} />
+  </div>
+);
+
+export const WithRibbon: StoryFn<BannerProps> = (args) => (
+  <div style={{ maxWidth: '104rem' }}>
+    <Banner {...args} />
+  </div>
+);
+
+WithRibbon.args = {
+  ribbon: '20% OFF',
+  ribbonColor: 'primary',
+  ribbonSize: 'normal'
+};

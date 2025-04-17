@@ -10,7 +10,7 @@ const Footer = () => (
     <Logo color="black" />
     <S.Content>
       <S.Column>
-        <Heading color="black" size="small" lineBottom lineColor="secondary">
+        <Heading color="black" size="small" $lineBottom $lineColor="secondary">
           Contact Us
         </Heading>
 
@@ -18,7 +18,7 @@ const Footer = () => (
       </S.Column>
 
       <S.Column>
-        <Heading color="black" lineColor="secondary" lineBottom size="small">
+        <Heading color="black" $lineColor="secondary" $lineBottom size="small">
           Follow us
         </Heading>
 
@@ -55,7 +55,7 @@ const Footer = () => (
       </S.Column>
 
       <S.Column>
-        <Heading color="black" lineColor="secondary" lineBottom size="small">
+        <Heading color="black" $lineColor="secondary" $lineBottom size="small">
           Links
         </Heading>
 
@@ -67,7 +67,7 @@ const Footer = () => (
       </S.Column>
 
       <S.Column aria-labelledby="footer-contact">
-        <Heading color="black" lineColor="secondary" lineBottom size="small">
+        <Heading color="black" $lineColor="secondary" $lineBottom size="small">
           Location
         </Heading>
         <span>Lorem ipsum dolor sit.</span>

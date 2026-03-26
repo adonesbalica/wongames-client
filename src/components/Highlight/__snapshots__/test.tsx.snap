@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Highlight /> should render align left 1`] = `
+.c0 {
+  background-image: url(/img/read-dead-img.jpeg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  height: 23rem;
+  display: grid;
+  grid-template-areas: 'content floatImage';
+  grid-template-columns: 2fr 1.3fr;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.c0 .c3 {
+  text-align: left;
+}
+
+.c0 .c1 {
+  justify-self: end;
+}
+
+.c2 {
+  grid-area: floatImage;
+  z-index: 10;
+  max-height: 23rem;
+  max-width: 100%;
+  align-self: end;
+}
+
+.c4 {
+  grid-area: content;
+  z-index: 10;
+  padding: 1.6rem;
+}
+
+.c5 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #FAFAFA;
+}
+
+.c6 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #FAFAFA;
+  margin-bottom: 3.2rem;
+}
+
+.c7 {
+  background: linear-gradient(180deg, #ff5f5f 0%, #f062c0 50%);
+  color: #FAFAFA;
+  border: 0;
+  border-radius: 0.4rem;
+  padding: 0.8rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  font-size: 1.4rem;
+  padding: 0.8rem 3.2rem;
+}
+
+.c7:hover {
+  background: linear-gradient(180deg, #e35565 0%, #d958a6 50%);
+}
+
+@media (min-width: 768px) {
+  .c0 {
+    height: 32rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c2 {
+    max-height: 32rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c4 {
+    align-self: end;
+    padding: 4.0rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c5 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c6 {
+    font-size: 1.8rem;
+  }
+}
+
+<section
+  alignment="left"
+  backgroundimage="/img/read-dead-img.jpeg"
+  class="c0"
+>
+  <img
+    alt="Heading 1"
+    class="c1 c2"
+    src="/float-image.png"
+  />
+  <div
+    class="c3 c4"
+  >
+    <h2
+      class="c5"
+    >
+      Heading 1
+    </h2>
+    <h3
+      class="c6"
+    >
+      Heading 2
+    </h3>
+    <a
+      class="c7"
+      href="/rdr2"
+    >
+      <span>
+        Buy now
+      </span>
+    </a>
+  </div>
+</section>
+`;
+
+exports[`<Highlight /> should render align right by default 1`] = `
+.c0 {
+  background-image: url(/img/read-dead-img.jpeg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  height: 23rem;
+  display: grid;
+  grid-template-areas: 'floatImage content';
+  grid-template-columns: 1.3fr 2fr;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.c0 .c2 {
+  text-align: right;
+}
+
+.c1 {
+  grid-area: floatImage;
+  z-index: 10;
+  max-height: 23rem;
+  max-width: 100%;
+  align-self: end;
+}
+
+.c3 {
+  grid-area: content;
+  z-index: 10;
+  padding: 1.6rem;
+}
+
+.c4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #FAFAFA;
+}
+
+.c5 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #FAFAFA;
+  margin-bottom: 3.2rem;
+}
+
+.c6 {
+  background: linear-gradient(180deg, #ff5f5f 0%, #f062c0 50%);
+  color: #FAFAFA;
+  border: 0;
+  border-radius: 0.4rem;
+  padding: 0.8rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  font-size: 1.4rem;
+  padding: 0.8rem 3.2rem;
+}
+
+.c6:hover {
+  background: linear-gradient(180deg, #e35565 0%, #d958a6 50%);
+}
+
+@media (min-width: 768px) {
+  .c0 {
+    height: 32rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c1 {
+    max-height: 32rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c3 {
+    align-self: end;
+    padding: 4.0rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c4 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c5 {
+    font-size: 1.8rem;
+  }
+}
+
+<section
+  alignment="right"
+  backgroundimage="/img/read-dead-img.jpeg"
+  class="c0"
+>
+  <img
+    alt="Heading 1"
+    class="c1"
+    src="/float-image.png"
+  />
+  <div
+    class="c2 c3"
+  >
+    <h2
+      class="c4"
+    >
+      Heading 1
+    </h2>
+    <h3
+      class="c5"
+    >
+      Heading 2
+    </h3>
+    <a
+      class="c6"
+      href="/rdr2"
+    >
+      <span>
+        Buy now
+      </span>
+    </a>
+  </div>
+</section>
+`;
+
+exports[`<Highlight /> should render background image 1`] = `
+.c0 {
+  background-image: url(/img/read-dead-img.jpeg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  height: 23rem;
+  display: grid;
+  grid-template-areas: 'floatImage content';
+  grid-template-columns: 1.3fr 2fr;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.c0 .c2 {
+  text-align: right;
+}
+
+.c1 {
+  grid-area: floatImage;
+  z-index: 10;
+  max-height: 23rem;
+  max-width: 100%;
+  align-self: end;
+}
+
+.c3 {
+  grid-area: content;
+  z-index: 10;
+  padding: 1.6rem;
+}
+
+.c4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #FAFAFA;
+}
+
+.c5 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #FAFAFA;
+  margin-bottom: 3.2rem;
+}
+
+.c6 {
+  background: linear-gradient(180deg, #ff5f5f 0%, #f062c0 50%);
+  color: #FAFAFA;
+  border: 0;
+  border-radius: 0.4rem;
+  padding: 0.8rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  font-size: 1.4rem;
+  padding: 0.8rem 3.2rem;
+}
+
+.c6:hover {
+  background: linear-gradient(180deg, #e35565 0%, #d958a6 50%);
+}
+
+@media (min-width: 768px) {
+  .c0 {
+    height: 32rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c1 {
+    max-height: 32rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c3 {
+    align-self: end;
+    padding: 4.0rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c4 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c5 {
+    font-size: 1.8rem;
+  }
+}
+
+<section
+  alignment="right"
+  backgroundimage="/img/read-dead-img.jpeg"
+  class="c0"
+>
+  <img
+    alt="Heading 1"
+    class="c1"
+    src="/float-image.png"
+  />
+  <div
+    class="c2 c3"
+  >
+    <h2
+      class="c4"
+    >
+      Heading 1
+    </h2>
+    <h3
+      class="c5"
+    >
+      Heading 2
+    </h3>
+    <a
+      class="c6"
+      href="/rdr2"
+    >
+      <span>
+        Buy now
+      </span>
+    </a>
+  </div>
+</section>
+`;
+
+exports[`<Highlight /> should render float image 1`] = `
+.c0 {
+  background-image: url(/img/read-dead-img.jpeg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  height: 23rem;
+  display: grid;
+  grid-template-areas: 'floatImage content';
+  grid-template-columns: 1.3fr 2fr;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.c0 .c2 {
+  text-align: right;
+}
+
+.c1 {
+  grid-area: floatImage;
+  z-index: 10;
+  max-height: 23rem;
+  max-width: 100%;
+  align-self: end;
+}
+
+.c3 {
+  grid-area: content;
+  z-index: 10;
+  padding: 1.6rem;
+}
+
+.c4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #FAFAFA;
+}
+
+.c5 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #FAFAFA;
+  margin-bottom: 3.2rem;
+}
+
+.c6 {
+  background: linear-gradient(180deg, #ff5f5f 0%, #f062c0 50%);
+  color: #FAFAFA;
+  border: 0;
+  border-radius: 0.4rem;
+  padding: 0.8rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  font-size: 1.4rem;
+  padding: 0.8rem 3.2rem;
+}
+
+.c6:hover {
+  background: linear-gradient(180deg, #e35565 0%, #d958a6 50%);
+}
+
+@media (min-width: 768px) {
+  .c0 {
+    height: 32rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c1 {
+    max-height: 32rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c3 {
+    align-self: end;
+    padding: 4.0rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c4 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c5 {
+    font-size: 1.8rem;
+  }
+}
+
+<section
+  alignment="right"
+  backgroundimage="/img/read-dead-img.jpeg"
+  class="c0"
+>
+  <img
+    alt="Heading 1"
+    class="c1"
+    src="/float-image.png"
+  />
+  <div
+    class="c2 c3"
+  >
+    <h2
+      class="c4"
+    >
+      Heading 1
+    </h2>
+    <h3
+      class="c5"
+    >
+      Heading 2
+    </h3>
+    <a
+      class="c6"
+      href="/rdr2"
+    >
+      <span>
+        Buy now
+      </span>
+    </a>
+  </div>
+</section>
+`;
+
+exports[`<Highlight /> should render headings and button 1`] = `
+.c0 {
+  background-image: url(/img/read-dead-img.jpeg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  height: 23rem;
+  display: grid;
+  grid-template-areas: 'floatImage content';
+  grid-template-columns: 1.3fr 2fr;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.c0 .c2 {
+  text-align: right;
+}
+
+.c1 {
+  grid-area: floatImage;
+  z-index: 10;
+  max-height: 23rem;
+  max-width: 100%;
+  align-self: end;
+}
+
+.c3 {
+  grid-area: content;
+  z-index: 10;
+  padding: 1.6rem;
+}
+
+.c4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #FAFAFA;
+}
+
+.c5 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #FAFAFA;
+  margin-bottom: 3.2rem;
+}
+
+.c6 {
+  background: linear-gradient(180deg, #ff5f5f 0%, #f062c0 50%);
+  color: #FAFAFA;
+  border: 0;
+  border-radius: 0.4rem;
+  padding: 0.8rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  font-size: 1.4rem;
+  padding: 0.8rem 3.2rem;
+}
+
+.c6:hover {
+  background: linear-gradient(180deg, #e35565 0%, #d958a6 50%);
+}
+
+@media (min-width: 768px) {
+  .c0 {
+    height: 32rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c1 {
+    max-height: 32rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c3 {
+    align-self: end;
+    padding: 4.0rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c4 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c5 {
+    font-size: 1.8rem;
+  }
+}
+
+<section
+  alignment="right"
+  backgroundimage="/img/read-dead-img.jpeg"
+  class="c0"
+>
+  <img
+    alt="Heading 1"
+    class="c1"
+    src="/float-image.png"
+  />
+  <div
+    class="c2 c3"
+  >
+    <h2
+      class="c4"
+    >
+      Heading 1
+    </h2>
+    <h3
+      class="c5"
+    >
+      Heading 2
+    </h3>
+    <a
+      class="c6"
+      href="/rdr2"
+    >
+      <span>
+        Buy now
+      </span>
+    </a>
+  </div>
+</section>
+`;
